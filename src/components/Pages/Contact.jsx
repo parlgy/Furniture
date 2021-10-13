@@ -53,7 +53,7 @@ const Contact = () => {
           </div>
         </Grid>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
