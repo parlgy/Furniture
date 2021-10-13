@@ -8,7 +8,7 @@ function HeroSection() {
     <div className="hero-container">
       <img src="/images/fun6.jpg" alt="" />
       {/* <video src="/videos/video-1.mp4" autoPlay loop muted /> */}
-      <h1>HOME OFFICE FURNITURES</h1>
+      <h1>Home Office Furnitures</h1>
       <p>Place Your Order Today!</p>
       <div className="hero-btns">
         <Button
