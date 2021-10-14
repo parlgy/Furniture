@@ -40,7 +40,7 @@ const Contact = () => {
           </Link>
           <Link
             class="social-icon-link youtube"
-            to="https://wa.link/hwbvve"
+            to={{ pathname: "https://wa.link/hwbvve" }}
             target="_blank"
             aria-label="Whatsapp"
           >
@@ -62,7 +62,7 @@ const Contact = () => {
           </p>
         </div>
         <p className="copy">
-          copyright &%copy; Home-Office 2021 || All Rights Reserved
+          copyright © Home-Office 2021 || All Rights Reserved
         </p>
       </div>
 

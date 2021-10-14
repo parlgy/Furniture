@@ -51,10 +51,11 @@
 }
 
 .nav-item {
-  height: 150px;
+  /* height: 150px; */
+  margin-top: 20px;
 }
 .nav-margin {
-  height: 150px;
+  height: 50px;
   display: flex;
 }
 
@@ -68,10 +69,10 @@
   font-size: 1.2rem;
 }
 
-.nav-links:hover {
-  border-bottom: 4px solid #fff;
+.nav-item:hover {
+  /* border-bottom: 4px solid #fff; */
   /* padding: 0; */
-  /* background-color: rgb(121, 119, 119); */
+  background-color: rgb(121, 119, 119);
   transition: all 0.2s ease-out;
 }
 
