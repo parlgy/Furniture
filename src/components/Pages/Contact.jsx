@@ -62,7 +62,7 @@ const Contact = () => {
           </p>
         </div>
         <p className="copy">
-          copyright @ Home-Office 2021 || All Rights Reserved
+          copyright &%copy; Home-Office 2021 || All Rights Reserved
         </p>
       </div>
 
