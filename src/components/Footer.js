@@ -71,7 +71,7 @@ function Footer() {
             </Link>
             <Link
               class="social-icon-link youtube"
-              to="https://wa.link/hwbvve"
+              to={{ pathname: "https://wa.link/hwbvve" }}
               target="_blank"
               aria-label="Whatsapp"
             >
