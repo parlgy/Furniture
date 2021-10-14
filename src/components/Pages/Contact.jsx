@@ -1,58 +1,71 @@
 import React from "react";
 import "../../App.css";
 import "./Contact.css";
-import { Button } from "@material-ui/core";
-import { FormControl, TextField } from "@material-ui/core";
-import { Grid } from "@material-ui/core";
-import Footer from "../Footer";
+import { Link } from "react-router-dom";
+// import { Button } from "@material-ui/core";
+// import { FormControl, TextField } from "@material-ui/core";
+// import { Grid } from "@material-ui/core
+// import Footer from "../Footer";
 
 const Contact = () => {
   return (
     <>
-      <div className="cover">
-        {/* <img src="/images/fun2.jpg" alt="" /> */}
-        <Grid item xs={12} sm={6}>
-          <div className="contact-back">
-            <h1>Contact Us</h1>
-            <p>
-              Please send your message below. we will get to you the earliest!
-            </p>
-            <h4>Message:</h4>
-            <FormControl className="form" style={{ margin: "30px" }}>
-              <TextField
-                id="Message-section"
-                label="Your Message"
-                variant="outlined"
-              />
-              <div className="inputs-flex">
-                <TextField
-                  id="Email-section"
-                  label="Your Email"
-                  variant="outlined"
-                />
-                <TextField
-                  id="Number-section"
-                  label="Your number"
-                  variant="outlined"
-                />
-              </div>
-              <div className="btn-send">
-                <Button
-                  className="send-btn"
-                  variant="contained"
-                  style={{
-                    width: "20px",
-                    backgroundColor: "black",
-                    color: "white",
-                  }}
-                >
-                  Send
-                </Button>
-              </div>
-            </FormControl>
-          </div>
-        </Grid>
+      {/* <img src="/images/fun2.jpg" alt="" /> */}
+      <div className="contact-section">
+        <h1>Reach Us!</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt
+          <br /> ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+          vero eos et accusam et justo duo dolores <br />
+          et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+          Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
+        </p>
+        <div class="contact-icons">
+          <Link
+            class="social-icon-link facebook"
+            to="/"
+            target="_blank"
+            aria-label="Facebook"
+          >
+            <i class="fab fa-facebook-f" />
+          </Link>
+          <Link
+            class="social-icon-link instagram"
+            to="/"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <i class="fab fa-instagram" />
+          </Link>
+          <Link
+            class="social-icon-link youtube"
+            to="https://wa.link/hwbvve"
+            target="_blank"
+            aria-label="Whatsapp"
+          >
+            <i class="fab fa-whatsapp"></i>
+          </Link>
+        </div>
+        <h3>@Home-Office</h3>
+        <div className="address">
+          <p>
+            info@mih.co.ke <br />
+            P.O. Box 158 – 50100,
+            <br /> Nairobi
+          </p>
+          <p>
+            0734544564
+            <br />
+            Mega Mall, Nairobi,
+            <br /> 2nd Floor
+          </p>
+        </div>
+        <p className="copy">
+          copyright @ Home-Office 2021 || All Rights Reserved
+        </p>
       </div>
+
       {/* <Footer /> */}
     </>
   );

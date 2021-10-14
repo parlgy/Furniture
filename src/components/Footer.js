@@ -39,7 +39,7 @@ function Footer() {
             <h2>Social Media</h2>
             <Link to="/">Instagram</Link>
             <Link to="/">Facebook</Link>
-            <Link to="/">Whatsapp</Link>
+            <Link to="https://wa.link/hwbvve">Whatsapp</Link>
           </div>
         </div>
       </div>
@@ -71,7 +71,7 @@ function Footer() {
             </Link>
             <Link
               class="social-icon-link youtube"
-              to=""
+              to="https://wa.link/hwbvve"
               target="_blank"
               aria-label="Whatsapp"
             >
