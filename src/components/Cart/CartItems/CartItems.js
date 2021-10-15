@@ -54,6 +54,7 @@ const CartItem = ({ item, onUpdateCartQty, onRemoveFromCart }) => {
           type="button"
           color="secondary"
           onClick={() => handleRemoveFromCart(item.id)}
+          style={{ marginLeft: "30px" }}
         >
           Remove
         </Button>
