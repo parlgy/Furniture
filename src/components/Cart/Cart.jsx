@@ -17,7 +17,6 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
       <Link className={classes.link} to="/products">
         start adding some
       </Link>
-      !
     </Typography>
   );
 
