@@ -2,7 +2,7 @@
   padding-top: 130px;
   /* padding-bottom: 100px;s */
   text-align: center;
-  height: 90vh;
+  /* height: 90vh; */
 }
 .contact-section h1 {
   padding-bottom: 20px;
@@ -26,13 +26,13 @@
   padding: 10px;
 }
 .copy {
-  /* margin-top: 80px; */
+  margin-top: 80px;
   background-color: black;
   color: white;
   padding: 20px;
   display: flex;
   justify-content: center;
   text-align: center;
-  position: fixed;
-  width: 100%;
+  /* position: fixed; */
+  /* width: 100%; */
 }
