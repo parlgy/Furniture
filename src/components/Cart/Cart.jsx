@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import CartItem from "../Cart/CartItems/CartItems";
 import useStyles from "./Styles";
+import "./Cart_section.css";
 
 const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
   const classes = useStyles();
@@ -47,6 +48,7 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
             variant="contained"
             color="secondary"
             onClick={handleEmptyCart}
+            style={{ marginBottom: "20px" }}
           >
             Empty cart
           </Button>
