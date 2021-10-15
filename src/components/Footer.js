@@ -1,15 +1,12 @@
 import React from "react";
 import "./Footer.css";
-import { Button } from "./Button";
+// import { Button } from "./Button";
 import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
-        {/* <p className="footer-subscription-heading">
-          Check out our products which are of high quality and affordable!
-        </p> */}
         <p className="footer-subscription-text">Talk to Us!</p>
       </section>
       <div class="footer-links">
@@ -28,7 +25,13 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>
-              <Link to="https://wa.link/hwbvve">Whatsapp</Link>
+              <Link
+                target="_blank"
+                aria-label="Facebook"
+                to={{ pathname: "https://wa.link/hwbvve" }}
+              >
+                Whatsapp
+              </Link>
             </h2>
           </div>
         </div>
@@ -41,9 +44,7 @@ function Footer() {
               omeOffice
             </Link>
           </div>
-          <small class="website-rights">
-            Home Office Furnitures © 2021 || All Rights Reserved
-          </small>
+
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
@@ -70,6 +71,9 @@ function Footer() {
               <i class="fab fa-whatsapp"></i>
             </Link>
           </div>
+          <small class="website-rights" style={{ marginTop: "20px" }}>
+            Home Office Furnitures © 2021 || All Rights Reserved
+          </small>
         </div>
       </section>
     </div>
