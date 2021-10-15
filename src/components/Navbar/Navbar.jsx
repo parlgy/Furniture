@@ -69,8 +69,10 @@ const PrimarySearchAppBar = ({ totalItems }) => {
             color="inherit"
           >
             {/*<img src={logo} alt="commerce.js" height="25px" className={classes.image} />*/}{" "}
-            Home Office
-            <i className="fas fa-couch" style={{ marginLeft: "10px" }} />
+            <div>
+              <i className="fas fa-chair" />
+              ome Office
+            </div>
             <div className="menu-icon" onClick={handleClick}>
               <i className={click ? "fas fa-times" : "fas fa-bars"} />
             </div>
