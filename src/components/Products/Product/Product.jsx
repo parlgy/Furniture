@@ -39,9 +39,8 @@ const Product = ({ product, onAddToCart }) => {
             color="textSecondary"
             component="p"
             style={{
-              marginTop: "5px",
-              marginBottom: "-10px",
-              marginLeft: "-30px",
+              marginTop: "15px",
+              marginBottom: "-20px",
             }}
           />
         </CardContent>
