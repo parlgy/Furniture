@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 // import { Button } from "@material-ui/core";
 // import { FormControl, TextField } from "@material-ui/core";
 // import { Grid } from "@material-ui/core
-// import Footer from "../Footer";
+import FooterContact from "../FooterContact";
 
 const Contact = () => {
   return (
@@ -62,11 +62,8 @@ const Contact = () => {
           </p>
         </div>
       </div>
-      <p className="copy">
-        copyright &copy; Home-Office 2021 || All Rights Reserved
-        {/* <script>document.write(new Date().getFullYear());</script>  */}
-      </p>
-      {/* <Footer /> */}
+
+      <FooterContact />
     </>
   );
 };
