@@ -8,6 +8,7 @@ import {
 import { loadStripe } from "@stripe/stripe-js";
 
 import Review from "./Review";
+import { Link } from "react-router-dom";
 
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
 
@@ -80,14 +81,21 @@ const PaymentForm = ({
                 <Button variant="outlined" onClick={backStep}>
                   Back
                 </Button>
-                <Button
-                  type="submit"
-                  variant="contained"
-                  enable={!stripe}
-                  color="primary"
+                <Link
+                  to={{ pathname: "https://wa.link/hwbvve" }}
+                  target="_blank"
+                  aria-label="Whatsapp"
+                  style={{ textDecoration: "none" }}
                 >
-                  Pay {checkoutToken.live.subtotal.formatted_with_symbol}
-                </Button>
+                  <Button
+                    // type="submit"
+                    variant="contained"
+                    // enable={!stripe}
+                    color="primary"
+                  >
+                    Order {checkoutToken.live.subtotal.formatted_with_symbol}
+                  </Button>
+                </Link>
               </div>
             </form>
           )}
