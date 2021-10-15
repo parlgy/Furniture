@@ -10,6 +10,7 @@ function HeroSection() {
       {/* <video src="/videos/video-1.mp4" autoPlay loop muted /> */}
       <h1>Home Office Furnitures</h1>
       <p>Place Your Order Today!</p>
+      <p className="delivery_options">We offer Payment on Delivery</p>
       <div className="hero-btns">
         <Button
           className="btns"
