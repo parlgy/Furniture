@@ -61,11 +61,11 @@ const Contact = () => {
             <br /> 2nd Floor
           </p>
         </div>
-        <p className="copy">
-          copyright © Home-Office 2021 || All Rights Reserved
-        </p>
       </div>
-
+      <p className="copy">
+        copyright &copy; Home-Office 2021 || All Rights Reserved
+        {/* <script>document.write(new Date().getFullYear());</script>  */}
+      </p>
       {/* <Footer /> */}
     </>
   );

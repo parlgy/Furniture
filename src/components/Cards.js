@@ -26,19 +26,19 @@ function Cards() {
             <CardItem
               src="images/fun2.jpg"
               text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
-              label="Mystery"
+              label="Office Tables"
               path="/products"
             />
             <CardItem
               src="images/fun3.jpg"
               text="Experience Football on Top of the Himilayan Mountains"
-              label="Adventure"
+              label="Board Room Fuenitures"
               path="/products"
             />
             <CardItem
               src="images/fun4.jpg"
               text="Ride through the Sahara Desert on a guided camel tour"
-              label="Adrenaline"
+              label="Study Tables"
               path="/products"
             />
           </ul>

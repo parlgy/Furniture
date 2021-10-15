@@ -31,7 +31,7 @@ function Footer() {
           </div>
           <div class="footer-link-items">
             <h2>Contact Us</h2>
-            <Link to="/">Contact</Link>
+            <Link to="/Contact">Contact</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
@@ -77,24 +77,6 @@ function Footer() {
             >
               <i class="fab fa-whatsapp"></i>
             </Link>
-
-            {/* <Link
-              class="social-icon-link twitter"
-              to="/"
-              
-              target="_blank"
-              aria-label="Twitter"
-            >
-              <i class="fab fa-twitter" />
-            </Link> */}
-            {/* <Link
-              class="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
-            >
-              <i class="fab fa-linkedin" />
-            </Link> */}
           </div>
         </div>
       </section>
