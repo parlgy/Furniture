@@ -49,10 +49,6 @@ img {
   margin: 6px;
 }
 
-/* .fa-phone-square-alt {
-  margin-left: 4px;
-} */
-
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
     font-size: 70px;
@@ -63,7 +59,7 @@ img {
 @media screen and (max-width: 768px) {
   .hero-container > h1 {
     font-size: 50px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 30px;
   }
 
