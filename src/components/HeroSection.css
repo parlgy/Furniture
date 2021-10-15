@@ -62,12 +62,14 @@ img {
 
 @media screen and (max-width: 768px) {
   .hero-container > h1 {
-    font-size: 40px;
-    margin-top: 0px;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
   }
 
   .hero-container > p {
     font-size: 20px;
+    margin-bottom: 40px;
   }
 
   .btn-mobile {
@@ -77,5 +79,6 @@ img {
 
   .btn {
     width: 95%;
+    /* margin-top: 50px; */
   }
 }
