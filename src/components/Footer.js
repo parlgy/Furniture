@@ -7,11 +7,11 @@ function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
-        <p className="footer-subscription-heading">
+        {/* <p className="footer-subscription-heading">
           Check out our products which are of high quality and affordable!
-        </p>
+        </p> */}
         <p className="footer-subscription-text">Talk to Us</p>
-        <div className="input-areas">
+        {/* <div className="input-areas">
           <form>
             <input
               className="footer-input"
@@ -21,7 +21,7 @@ function Footer() {
             />
             <Button buttonStyle="btn--outline">Send</Button>
           </form>
-        </div>
+        </div> */}
       </section>
       <div class="footer-links">
         <div className="footer-link-wrapper">
