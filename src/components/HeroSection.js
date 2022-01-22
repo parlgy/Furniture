@@ -9,8 +9,13 @@ function HeroSection() {
       <img src="/images/fun6.jpg" alt="" />
       {/* <video src="/videos/video-1.mp4" autoPlay loop muted /> */}
       <h1>Home Office Furnitures</h1>
-      <p>Place Your Order Today!</p>
-      <p className="delivery_options">We offer Payment on Delivery</p>
+      <p className="subTitle">Place Your Order Today!</p>
+      <p className="description-Title"> We offer a wide range of 
+Office tables and chairs that are flexible, <br/>
+dynamic and ergonomic. We understand 
+your needs & requirements and provide <br/>
+solutions to fulfill them.</p>
+      <p className="delivery_options">Payment on Delivery!!</p>
       <div className="hero-btns">
         <Button
           className="btns"

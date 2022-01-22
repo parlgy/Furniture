@@ -41,7 +41,7 @@ function Footer() {
           <div class="footer-logo">
             <Link to="/" className="social-logo">
               <i className="fas fa-chair" />
-              omeOffice
+              ome Office
             </Link>
           </div>
 

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 // import { Button } from "@material-ui/core";
 // import { FormControl, TextField } from "@material-ui/core";
 // import { Grid } from "@material-ui/core
-import FooterContact from "../FooterContact";
+import Footer from "../Footer";
 
 const Contact = () => {
   return (
@@ -63,7 +63,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <FooterContact />
+      <Footer />
     </>
   );
 };
