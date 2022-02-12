@@ -11,13 +11,13 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="images/fun5.jpg"
-              text="Explore the hidden waterfall deep inside the Amazon Jungle"
+              text="Furniture is a quiet part of regular day-to-day existence and the centrality is known, just when we needed to confront circumstances without the help of legitimate furniture."
               label="Chairs"
               path="/products"
             />
             <CardItem
               src="images/fun6.jpg"
-              text="Travel through the Islands of Bali in a Private Cruise"
+              text="Filling the office with the beautiful creation of wood"
               label="Desks"
               path="/products"
             />
@@ -25,19 +25,19 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="images/fun2.jpg"
-              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
+              text="Low prices and best quality"
               label="Office Tables"
               path="/products"
             />
             <CardItem
               src="images/fun3.jpg"
-              text="Experience Football on Top of the Himilayan Mountains"
+              text="Furniture with an ease of comfort"
               label="Board Room Fuenitures"
               path="/products"
             />
             <CardItem
               src="images/fun4.jpg"
-              text="Ride through the Sahara Desert on a guided camel tour"
+              text="Decor the dreams with wood beauty"
               label="Study Tables"
               path="/products"
             />

@@ -71,7 +71,7 @@ const PrimarySearchAppBar = ({ totalItems }) => {
             {/*<img src={logo} alt="commerce.js" height="25px" className={classes.image} />*/}{" "}
             <div>
               <i className="fas fa-chair" />
-              omeOffice
+              ome Office
             </div>
             <div className="menu-icon" onClick={handleClick}>
               <i className={click ? "fas fa-times" : "fas fa-bars"} />
