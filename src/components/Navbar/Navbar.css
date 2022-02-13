@@ -34,7 +34,7 @@
 }
 
 .fa-chair {
-  /* margin-left: 0.5rem; */
+  margin-left: 4rem;
   font-size: 1.8rem;
 }
 
@@ -172,5 +172,9 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
+  }
+  .fa-chair {
+    margin-left: 0.5rem;
+    /* font-size: 1.8rem; */
   }
 }

@@ -5,12 +5,15 @@ import "../../App";
 import Cards from "../Cards";
 import HeroSection from "../HeroSection";
 import Footer from "../Footer";
+import Content from "../Content"
+
 
 function Home() {
   return (
     <>
       <HeroSection />
       <Cards />
+      <Content />
       <Footer />
     </>
   );

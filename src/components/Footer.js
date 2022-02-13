@@ -117,7 +117,7 @@ export default function Footer() {
             </h5>
             <div className="mt-6">
               <button
-                className="bg-white shadow-lg font-normal h-20 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                className="bg-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
                 <i class="flex fab fa-instagram-square" />
@@ -185,7 +185,7 @@ export default function Footer() {
                     </a>
                   </li>
                 </ul>
-
+              
               </div>
             </div>
           </div>
