@@ -55,15 +55,17 @@ function HeroSection() {
               {/* is real */}
             </span>
           </h2>
-          <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
+          <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg mt-8">
           We offer quality and affordable furnitures
           and equipments to make your Office shine!
+          <br />
+          Pay on Delivery!!
           </p>
-          <div className="flex items-center">
+          <div className="flex items-center mt-16">
             <Button
                buttonStyle="btn--primary"
               buttonSize="btn--large"
-              className="btns"
+              // className="btn"
             >
               Get started
             </Button>

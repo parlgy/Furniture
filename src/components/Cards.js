@@ -12,9 +12,9 @@ function Cards() {
             <h2 className="font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
               We value Our
               <br className="hidden md:block" />
-              Customers and hope{' '}
+              Customers and aim at{' '}
               <span className="inline-block text-deep-purple-accent-400">
-                to deliver quality products
+                providing quality products
               </span>
             </h2>
           </div>
@@ -36,39 +36,45 @@ function Cards() {
         </div>
       </div>
     </div>
-      <h1>Check out these Epic Furnitures!</h1>
+      <h1>Check out Epic Furnitures!</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
-          <ul className="cards__items" style={{marginBottom:"20px",}}>
-            <CardItem
+          {/* <ul className="cards__items" style={{marginBottom:"20px",}}> */}
+            {/* <CardItem
               src="images/fun5.jpg"
-              text="Furniture is a quiet part of reguown, just when we needed to confront circumstances without the help of legitimate furniture."
+              // text="Furniture is a quiet part of reguown, just when we needed to confront circumstances without the help of legitimate furniture."
               label="Chairs"
               path="/products"
             />
             <CardItem
               src="images/fun6.jpg"
-              text="Furniture is a quiet part of reguown, just when we needed to confront circumstances without the help of legitimate furniture."
+              // text="Furniture is a quiet part of reguown, just when we needed to confront circumstances without the help of legitimate furniture."
               label="Desks"
               path="/products"
             />
-          </ul>
+          </ul> */}
           <ul className="cards__items">
             <CardItem
               src="images/fun2.jpg"
-              // text="Low prices and best quality"
+              text="Low prices and best quality"
               label="Office Tables"
               path="/products"
             />
             <CardItem
               src="images/fun3.jpg"
-              // text="Furniture with an ease of comfort"
+              text="Furniture with an ease of comfort"
+              label="Board Room Fuenitures"
+              path="/products"
+            />
+            <CardItem
+              src="images/fun3.jpg"
+              text="Furniture with an ease of comfort"
               label="Board Room Fuenitures"
               path="/products"
             />
             <CardItem
               src="images/fun4.jpg"
-              // text="Decor the dreams with wood beauty"
+              text="Decor the dreams with wood beauty"
               label="Study Tables"
               path="/products"
             />
