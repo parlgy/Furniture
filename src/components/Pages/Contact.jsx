@@ -5,7 +5,7 @@ import Footer from "../Footer";
 const Contact = () => {
   return (
     <>
-      <div className="relative bg-gray-700 pt-20" >
+      <div className="relative pt-20" style={{backgroundColor: "#242424"}}>
       <div className="absolute inset-x-0 bottom-0">
         <svg
           viewBox="0 0 224 12"

@@ -6,10 +6,10 @@ export default makeStyles(() => ({
     // width: 200,
   },
   media: {
-    // paddingTop: '56.25%', // 16:9
-    height: 160,
-    width: 150,
-    marginLeft: "60px",
+    paddingTop: '96.25%', // 16:9
+    // height: 160,
+    // width: 150,
+    // marginLeft: "60px",
     marginTop: "5px",
     // margin: 10,
   },
@@ -21,7 +21,7 @@ export default makeStyles(() => ({
   cardContent: {
     display: "flex",
     justifyContent: "space-between",
-    height: 15,
+    height: "15px",
     // width: 180
   },
 }));

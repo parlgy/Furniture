@@ -29,7 +29,11 @@ const Product = ({ product, onAddToCart }) => {
             <Typography gutterBottom variant="body1" component="p">
               {product.name}
             </Typography>
-            <Typography gutterBottom variant="body1" component="p">
+            <Typography gutterBottom variant="body1" 
+            component="p"
+            style={{
+              fontSize: "14px",
+            }}>
               Ksh {product.price.formatted}
             </Typography>
           </div>
@@ -41,6 +45,7 @@ const Product = ({ product, onAddToCart }) => {
             style={{
               marginTop: "15px",
               marginBottom: "-20px",
+              fontSize: "10px",
             }}
           />
         </CardContent>
