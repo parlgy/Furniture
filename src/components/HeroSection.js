@@ -60,12 +60,13 @@ function HeroSection() {
           and equipments to make your Office shine!
           </p>
           <div className="flex items-center">
-            <a
-              href="/products"
-              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-black hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+            <Button
+               buttonStyle="btn--primary"
+              buttonSize="btn--large"
+              className="btns"
             >
               Get started
-            </a>
+            </Button>
             <a
               href="/contact"
               aria-label=""
