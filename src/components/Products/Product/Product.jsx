@@ -26,7 +26,10 @@ const Product = ({ product, onAddToCart }) => {
         />
         <CardContent>
           <div className={classes.cardContent}>
-            <Typography gutterBottom variant="body1" component="p">
+            <Typography gutterBottom variant="body1" component="p"
+            style={{
+              fontSize: "14px",
+            }}>
               {product.name}
             </Typography>
             <Typography gutterBottom variant="body1" 
@@ -46,6 +49,7 @@ const Product = ({ product, onAddToCart }) => {
               marginTop: "15px",
               marginBottom: "-20px",
               fontSize: "10px",
+              // width: "70%"
             }}
           />
         </CardContent>
