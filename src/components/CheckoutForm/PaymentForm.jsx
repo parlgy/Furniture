@@ -82,7 +82,7 @@ const PaymentForm = ({
                   Back
                 </Button>
                 <Link
-                  to={{ pathname: "https://wa.link/hwbvve" }}
+                  to={{ pathname: "https://wa.link/govxhx" }}
                   target="_blank"
                   aria-label="Whatsapp"
                   style={{ textDecoration: "none" }}

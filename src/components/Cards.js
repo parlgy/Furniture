@@ -67,13 +67,13 @@ function Cards() {
               path="/products"
             />
             <CardItem
-              src="images/fun3.jpg"
+              src="images/fun1.jpg"
               text="Furniture with an ease of comfort"
               label="Board Room Fuenitures"
               path="/products"
             />
             <CardItem
-              src="images/fun4.jpg"
+              src="images/fun6.jpg"
               text="Decor the dreams with wood beauty"
               label="Study Tables"
               path="/products"

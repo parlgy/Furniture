@@ -54,7 +54,7 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
           <Button
             className={classes.checkoutButton}
             component={Link}
-            to="/checkout"
+            to={{ pathname: "https://wa.link/govxhx" }}
             size="large"
             type="button"
             variant="contained"
