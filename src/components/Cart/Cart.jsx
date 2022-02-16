@@ -51,10 +51,30 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
           >
             Empty cart
           </Button>
+          {/* <Link
+              to={{ pathname: "https://wa.link/govxhx" }}
+              target="_blank"
+              aria-label="Whatsapp"
+              style={{ textDecoration: "none" }}
+            >
+            <Button
+              // type="submit"
+              variant="contained"
+              // enable={!stripe}
+              color="primary"
+            >
+              {/* Order {checkoutToken.live.subtotal.formatted_with_symbol} */}
+            {/* </Button> */}
+          {/* </Link> */} */
+          <Link
+              to={{ pathname: "https://wa.link/govxhx" }}
+              target="_blank"
+              aria-label="Whatsapp"
+          >
           <Button
-            className={classes.checkoutButton}
-            component={Link}
-            to={{ pathname: "https://wa.link/govxhx" }}
+            // className={classes.checkoutButton}
+            // component={Link}
+            // to={{ pathname: "https://wa.link/govxhx" }}
             size="large"
             type="button"
             variant="contained"
@@ -63,6 +83,8 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
           >
             Checkout
           </Button>
+          </Link>
+          
         </div>
       </div>
     </>
