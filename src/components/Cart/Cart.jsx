@@ -43,6 +43,7 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
         </Typography>
         <div className="myBtn">
         <Button className={classes.emptyButton} size="large" type="button" variant="contained" color="secondary" onClick={handleEmptyCart}>Empty cart</Button>
+        {/* <Button className={classes.checkoutButton} component={Link} to="/checkout" size="large" type="button" variant="contained" color="primary">Checkout</Button> */}
         <Button className={classes.checkoutButton} component={Link} to={{ pathname: "https://wa.link/govxhx" }} aria-label="Whatsapp" target="_blank" size="large" type="button" variant="contained" color="primary">Checkout</Button>          
         </div>
       </div>
