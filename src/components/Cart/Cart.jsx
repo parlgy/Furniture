@@ -43,52 +43,7 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
         </Typography>
         <div className="myBtn">
         <Button className={classes.emptyButton} size="large" type="button" variant="contained" color="secondary" onClick={handleEmptyCart}>Empty cart</Button>
-        <Button className={classes.checkoutButton} component={Link} to="/checkout" size="large" type="button" variant="contained" color="primary">Checkout</Button>
-          {/* <Button
-            className={classes.emptyButton}
-            size="large"
-            type="button"
-            variant="contained"
-            color="secondary"
-            onClick={handleEmptyCart}
-            style={{ marginBottom: "20px", marginLeft: "20px" }}
-          >
-            Empty cart
-          </Button> */}
-          {/* <Link
-              to={{ pathname: "" }}
-              target="_blank"
-              aria-label="Whatsapp"
-              style={{ textDecoration: "none" }}
-            > */}
-            {/* <Button
-              type="submit"
-              variant="contained"
-              // enable={!stripe}
-              color="primary"
-            > */}
-              {/* Order {checkoutToken.live.subtotal.formatted_with_symbol} */}
-            {/* </Button> */}
-          {/* </Link>  */}
-          {/* <Link
-              to={{ pathname: "https://wa.link/govxhx" }}
-              target="_blank"
-              aria-label="Whatsapp"
-          > */}
-          {/* <Button */}
-            {/* // className={classes.checkoutButton}
-            // component={Link}
-            // to={{ pathname: "https://wa.link/govxhx" }}
-          //   size="large"
-          //   type="button"
-          //   variant="contained"
-          //   color="primary"
-          //   style={{ marginBottom: "20px", marginLeft: "20px" }}
-          // > */}
-          {/* //   Checkout */}
-          {/* // </Button> */}
-          {/* </Link> */}
-          
+        <Button className={classes.checkoutButton} component={Link} to={{ pathname: "https://wa.link/govxhx" }} aria-label="Whatsapp" target="_blank" size="large" type="button" variant="contained" color="primary">Checkout</Button>          
         </div>
       </div>
     </>
