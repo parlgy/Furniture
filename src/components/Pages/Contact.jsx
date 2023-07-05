@@ -27,10 +27,11 @@ const Contact = () => {
               <div className="w-full h-3 -mt-3 bg-deep-purple-accent-400" />
             </span>
           </h2>
-          <p className="mb-6 text-base font-thin tracking-wide text-gray-300 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae. explicabo. Sed ut perspiciatis unde omnis.
+          <p className="mb-6 text-base font-bold tracking-wide text-gray-300 md:text-2xl">
+            For more information, Call:
+          </p>
+          <p className="mb-6 text-base font-bold tracking-wide text-gray-300 md:text-2xl">
+            +254 700 815070
           </p>
           <form className="flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
             <input
@@ -69,7 +70,7 @@ const Contact = () => {
     </div>
 
 
-      <Footer /> 
+      {/* <Footer />  */}
     </>
   );
 };
